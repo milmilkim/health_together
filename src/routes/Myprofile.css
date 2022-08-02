@@ -1,0 +1,75 @@
+.myProfile {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+/* .myProfile .ant-input {
+  padding: 0;
+} */
+
+.myProfile__wrap {
+  width: 520px;
+  border-radius: 5px;
+
+  background-color: #fff;
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 20px;
+}
+
+.myProfile__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px var(--color-gray);
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+
+.myProfile__picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.myProfile__body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.myProfile__nickname {
+  font-size: 24px;
+  font-family: nanumBarunGothicBold;
+  margin-bottom: 10px;
+}
+
+.myProfile__livingPlace {
+  color: #b7b8c0;
+  margin-bottom: 10px;
+}
+
+.myProfile__selfIntroduction {
+  margin-bottom: 20px;
+}
+
+.myProfile__preference {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid var(--color-gray);
+}
+
+.myProfile__preference--header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.myProfile__preference--body {
+  display: flex;
+  justify-content: space-around;
+}

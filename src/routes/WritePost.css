@@ -1,0 +1,4 @@
+.writePost .ant-page-header-ghost,
+.writePost .ant-page-header-compact {
+  border-bottom: solid 2px #000;
+}
